@@ -1,16 +1,16 @@
-# Botantony Fast-cli
+# `fast-cli` formula
 
 ## How do I install these formulae?
 
-`brew install botantony/fast-cli/<formula>`
+`brew install botantony/fast-cli/fast-cli`
 
-Or `brew tap botantony/fast-cli` and then `brew install <formula>`.
+Or `brew tap botantony/fast-cli` and then `brew install fast-cli`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "botantony/fast-cli"
-brew "<formula>"
+brew "fast-cli"
 ```
 
 ## Documentation
