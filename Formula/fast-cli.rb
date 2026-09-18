@@ -7,9 +7,9 @@ class FastCli < Formula
   head "https://github.com/mikkelam/fast-cli.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/botantony/homebrew-fast-cli/releases/download/fast-cli-0.3.5"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "a45c5aa1a8ef0a5e830df15e2bbbe69c2ffe9a428c8c41c55c5d88d7f09e5af1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "8e07409f57d98cf964780e42ab3a537cdd117e627db95ce6010d01a6ef56140c"
+    root_url "https://github.com/botantony/homebrew-fast-cli/releases/download/fast-cli-0.3.6"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6236a6f0a09df94aab9282f785bd27ec81d913da3d897e19e0fedd1bc452b8c0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "18aa74d7debc16c251fdc02851d759484def7c7ebd773514ee947b8d1a4e4ff6"
   end
 
   depends_on "zig@0.15" => :build
