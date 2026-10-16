@@ -1,8 +1,8 @@
 class FastCli < Formula
   desc "Command-line version of fast.com in ~1.2 MB"
   homepage "https://github.com/mikkelam/fast-cli"
-  url "https://github.com/mikkelam/fast-cli/archive/refs/tags/v0.3.9.tar.gz"
-  sha256 "249e222e6fd534c508f2338eef35e66a5a588c51e8093642cc24d587c3a7cb10"
+  url "https://github.com/mikkelam/fast-cli/archive/refs/tags/v0.3.10.tar.gz"
+  sha256 "f138be28f21095369e27663a9c97bdfe29d440ce49adc82d1b0484cea1db44f4"
   license "MIT"
   head "https://github.com/mikkelam/fast-cli.git", branch: "main"
 
